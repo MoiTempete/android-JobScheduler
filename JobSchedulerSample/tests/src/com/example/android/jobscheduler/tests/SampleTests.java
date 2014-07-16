@@ -68,8 +68,8 @@ public class SampleTests extends ActivityInstrumentationTestCase2<MainActivity> 
     public void testPreconditions() {
         //Try to add a message to add context to your assertions. These messages will be shown if
         //a tests fails and make it easy to understand why a test failed
-        assertNotNull("mTestActivity is null", mTestActivity);
-        assertNotNull("mTestFragment is null", mTestFragment);
+        assertNotNull("mTestActivity is null @ testPreconditions", mTestActivity);
+        assertNotNull("mTestFragment is null @ testPreconditions", mTestFragment);
     }
 
     /**
